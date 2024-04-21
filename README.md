@@ -6,9 +6,9 @@ Save exported Kindle notebook to your computer as HTML file. The follow the step
 ```
 git clone https://github.com/loonskai/kindle-to-markdown
 ./convert \
-  --source=file:///Users/johndoe/Downloads/Brave%20New%20World_%20(Original%20Classic%20Editions)%20-%20Notebook.html
-  --output=BraveNewWorld.md
-  --template=NoteTemplateExample.md
+  --source=/Users/johndoe/Downloads/BraveNewWorldNotebook.html \
+  --output=BraveNewWorld.md \
+  --template=NoteTemplateExample.md \
 ```
 
 | Flag |  | Description |
